@@ -1,7 +1,10 @@
+let gisele = require("images/gisele.jpg")
+
+
 const models = [
     {
         name: "Gisele",
-        avatar: "images/gisele.jpg",
+        avatar: {gisele},
         age: 42,
         bio: "Richest model in the world. $400 million in the bank xx",
         hasBeenSwiped: false,
